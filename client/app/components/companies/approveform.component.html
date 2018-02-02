@@ -1,0 +1,14 @@
+<h1>Manage Companies</h1>
+<hr>
+<div *ngFor="let company of companies">
+        <div class="col-md-1">
+            <input type="checkbox" [checked]="company.isApproved" (click)="updateStatus(company)">
+        </div>
+        <div class="col-md-7">
+            {{company.name}}    
+        </div> 
+        <div class="col-md-4">
+            <input type="button" (click)="deleteCompany(company._id)" value="Delete" class="btn btn-danger">    
+        </div>
+        <br><br>
+</div>
