@@ -37,7 +37,7 @@ export class CompaniesComponent{
         
         this.companyService.addCompany(newCompany)
             .subscribe(company => {
-                this.companys.push(company);
+                this.companies.push(company);
                 this.website ='';
                 this.contact = '';
                 this.name = '';

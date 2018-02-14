@@ -1,4 +1,4 @@
-export class Task{
+export class Company{
 	name: string;
 	ext: string;
 	address: string;
