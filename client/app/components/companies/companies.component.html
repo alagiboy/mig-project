@@ -1,11 +1,11 @@
-<div class="company-list">
-    <div *ngFor="let company of companies">
-        <div class="col-md-2">
+<div class="company-list row">
+    <div class="col-md-4" *ngFor="let company of companies">
+        <div>
             {{company.name}}
-        </div> 
-        <div class="col-md-4">
+        </div>
+        <div class="main">
             <a href="http://{{company.website}}">
-            	<img src="app/images/{{company.logo}}" style="width:200px;height:200px;" alt="{{company.name}}"></a>
+            	<img src="app/images/{{company.logo}}" alt="{{company.name}}"></a>
         </div>
     </div>
 </div>

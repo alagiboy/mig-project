@@ -1,0 +1,19 @@
+.btn-success
+{
+    float: right;
+    margin: 2rem 0;
+}
+.company-list>div{
+  text-align: center;
+}
+.main
+{
+  display: grid;
+  grid-template-columns: repeat(auto-fit minmax(240px 1fr))
+}
+img
+{
+  display: block;
+  width: 100%;
+  box-shadow: -1px 0px 0px rgba(0,0,0,0,0.6);
+}
